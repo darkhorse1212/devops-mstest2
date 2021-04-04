@@ -19,7 +19,7 @@ pipeline {
 	} 
 	post {
 		always {
-			echi "I am cool. Setting this up for success"
+			echo "I am cool. Setting this up for success"
 		}
 		success {
 			echo "I am successful"
